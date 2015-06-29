@@ -1,0 +1,14 @@
+#include "T_Board.h"
+
+
+
+int main(){
+    Board* b = new Board();
+    Shape* s = new Shape(4, 0, -1);
+    b->printBoardWithShape(s);
+    b->rotate(s);
+    b->printBoardWithShape(s);
+    delete s;
+    delete b;
+    return 0;
+}

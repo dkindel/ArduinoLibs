@@ -1,0 +1,36 @@
+#######################################
+# Syntax Coloring Map For Tetris
+####################################### 
+# Class
+#######################################
+
+Board			KEYWORD1
+Shape			KEYWORD1
+T_Board			KEYWORD1
+T_Shape			KEYWORD1
+
+#######################################
+# Methods and Functions 
+#######################################	
+
+moveLeft		KEYWORD2
+moveRight		KEYWORD2
+moveDown		KEYWORD2
+drop			KEYWORD2
+rotate			KEYWORD2
+placeInBoard	KEYWORD2
+getWidth		KEYWORD2
+getHeight		KEYWORD2
+getOrient		KEYWORD2
+getShapeType	KEYWORD2
+getRow			KEYWORD2
+getCol			KEYWORD2
+getPiece		KEYWORD2
+getPieceRot		KEYWORD2
+
+#######################################
+# Constants
+#######################################
+ 
+WIDTH			LITERAL1
+HEIGHT			LITERAL1
